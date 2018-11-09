@@ -55,6 +55,7 @@ for (let i = 0; i < divs.length; i++) {
   divs[i].addEventListener('click', capture, true);
 }
 
+<<<<<<< HEAD
  
 function bubble(e) {
   e.stopPropagation();
@@ -65,6 +66,8 @@ function bubble(e) {
 for (let i = 0; i < divs.length; i++) {
   divs[i].addEventListener('click', bubble);
 }
+=======
+>>>>>>> 1c2627ea0b4f031a12fdbb8015391fdfb6f5b7b6
 
 
 
